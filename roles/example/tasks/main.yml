@@ -1,0 +1,6 @@
+---
+- name: Creat a file in current dir using the config template
+  ansible.builtin.template:
+    src: config.j2
+    dest: "{{ playbook_dir }}/../config"
+  notify: read_config
