@@ -6,7 +6,7 @@
 
 - **Pi 5 (16 GB)** — production host
   - NVMe SSD via M.2 HAT — runs OS + Docker + container data
-  - HDD #1 — general media (movies, TV, adult content)
+  - HDD #1 — general media (movies, TV)
   - HDD #2 — dedicated to One Piece
   - Connected to network via Mac ethernet (Mac on phone hotspot)
 - **Pi 4 (8 or 16 GB)** — currently idle, SD card only
