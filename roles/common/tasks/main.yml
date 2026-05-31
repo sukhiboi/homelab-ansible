@@ -1,0 +1,4 @@
+---
+- name: Completed common
+  ansible.builtin.debug:
+    msg: "Common role run success"

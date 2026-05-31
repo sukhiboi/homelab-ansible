@@ -1,0 +1,11 @@
+---
+- name: read_config
+  ansible.builtin.slurp:
+    src: "{{ playbook_dir }}/../config"
+  register: config_output
+  changed_when: true
+  notify: print_config
+
+- name: print_config
+  ansible.builtin.debug:
+    msg: "{{ config_output.content | b64decode }}"
