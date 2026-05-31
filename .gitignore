@@ -1,0 +1,11 @@
+.idea/
+.ansible/
+*.retry
+.vault_pass
+*.pyc
+__pycache__/
+.DS_Store
+vault.yml
+inventory/
+group_vars/
+host_vars/

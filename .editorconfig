@@ -1,0 +1,29 @@
+# EditorConfig: https://editorconfig.org
+# Tells editors how to format files in this repo.
+
+root = true
+
+# Defaults for every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Python: PEP 8 says 4 spaces
+[*.py]
+indent_size = 4
+
+# Makefiles require literal tabs
+[Makefile]
+indent_style = tab
+
+# Markdown: two trailing spaces = line break, so don't strip them
+[*.md]
+trim_trailing_whitespace = false
+
+# Shell scripts: 2 spaces (matches the rest of the repo)
+[*.sh]
+indent_size = 2
