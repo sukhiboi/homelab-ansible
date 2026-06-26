@@ -6,6 +6,3 @@
 __pycache__/
 .DS_Store
 vault.yml
-inventory/
-group_vars/
-host_vars/
